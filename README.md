@@ -12,7 +12,7 @@ Otherwise, you can manually find and download/extract the applicable archive fro
 
 # Usage
 
-```
+```bash
 # fetch a compiler and set it as the default
 zigup <version>
 zigup master
@@ -51,7 +51,7 @@ Both the "install directory" and "path link" are configurable through command-li
 # Building
 
 Run `zig build` to build, `zig build test` to test and install with:
-```
+```bash
 # install to a bin directory with
 cp zig-out/bin/zigup BIN_PATH
 ```
